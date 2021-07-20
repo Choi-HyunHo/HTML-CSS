@@ -1,0 +1,58 @@
+h1{
+    font-size: 80px;
+    margin-left: 800px;
+    margin-top: 250px;
+    margin-bottom: 20px;
+}
+
+/* 첫 번째 span을 찾아서 스타일 지정 */
+h1 span:nth-child(1){
+    color: #4184f4;
+}
+
+h1 span:nth-child(2){
+    color: #ea4235;
+}
+
+h1 span:nth-child(3){
+    color: #fabc08;
+}
+
+h1 span:nth-child(4){
+    color: #4184f4;
+}
+
+h1 span:nth-child(5){
+    color: #34a852;
+}
+
+h1 span:nth-child(6){
+    color: #ea4235;
+}
+
+
+/* 입력 창 설정 solid(실선) */
+/* 테두리를 둥글게 만드는 속성 radius*/
+/* width 속성으로 input창의 길이를 늘렸다 */
+input{
+    margin-left: 770px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 320px;
+}
+
+.bottom{
+    margin-top: 15px;
+}
+/* bottom 클래스의 button 선택 */
+.bottom button{
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+/* 첫 번째 버튼을 선택(Google 검색)*/
+.bottom button:nth-child(1){
+    margin-left: 835px;
+}
