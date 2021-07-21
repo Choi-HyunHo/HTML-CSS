@@ -1,0 +1,52 @@
+/* 클래스 셀렉터*/
+.fixed-container{
+    width: 80%;
+     /* 화면 기준 절대위치*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    /* 이동(transform : translate(x축,y축);*/
+    transform: translate(-50%,-50%);
+
+    /* 가운데 정렬 */
+    text-align: center;
+}
+
+/* logo, input 동시 선택 */
+.logo, .input{
+    margin-bottom: 20px;
+}
+
+/* 사실상 입력창 */
+.input{
+    /* 경계선 */
+    border: 2px solid lightgray;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+/* input 클래스의 material-icons 클래스 선택 */
+.input .material-icons{
+    position: relative;
+    top: 6px;
+}
+/* input 클래스의 text 입력 창 선택 */
+.input input{
+    font-size: 20px;
+    padding: 5px;
+    width: 300px;
+    /* 가운데 입력 창의 경계선을 안보이게 한다 */
+    border: none;
+    /* outline은 border 속성보다 더 외곽에 위치하고 있다 */
+    /* 위의 .input 클래스가 사람 눈에 입력 창 처럼 보이게 하기 위해서 */
+    outline: none;
+}
+
+.buttons button{
+    border-radius: 5px;
+    /* 위,아래는 5px and 가로,세로는 10px 여백을 줌*/
+    padding: 5px 10px;
+    border: none;
+}
